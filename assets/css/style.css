@@ -1,0 +1,71 @@
+/* This is the style page for the profile.html file in the parent folder*/
+
+/*This is the styling for the header*/
+
+header {
+	background-color: blue;
+	float:left;
+	width: 33%;
+}
+
+hr {
+	width: 2px;
+}
+/* this will style the nameSpace*/
+h1 {
+	background-color: #777;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+/* This will style the header for the image and contact title */
+h2 {
+	font-size: 24px;
+}
+
+/* This will Style the page overall*/
+body {
+	background-color: #fff2e6;
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans, Times New Roman";
+	font-size:18px;
+	line-height: 150%;
+
+}
+
+/* This will style the division class*/
+.content {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+a {
+	color: red;
+}
+
+
+/* This will style the idividual Id's in the division*/
+#main,
+#contact,
+#img {
+	float: left;
+}
+
+/* This will set the percentage of space occupied by the different id's in the division*/
+#main {
+	width: 70%;
+}
+
+#contact {
+	width: 30%;
+}
+
+/* This will provide some space between the image and the bio paragraph space*/
+#img {
+	margin-right: 20px; 
+}
